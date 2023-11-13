@@ -11,6 +11,7 @@ function TodoForm() {
         todo: todo,
         completed: false,
       });
+      console.log(todo);
       setTodo("");
     }
   };
